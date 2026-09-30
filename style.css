@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  margin: 0;
+  place-items: center;
+  background: #f7f8fc;
+  color: #202124;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(3rem, 10vw, 6rem);
+  line-height: 1.1;
+}
+
+p {
+  margin: 1rem 0 0;
+  color: #5f6368;
+  font-size: clamp(1.125rem, 3vw, 1.5rem);
+}
